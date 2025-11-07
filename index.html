@@ -120,7 +120,7 @@
       <a href="#" data-method="whatsapp" data-href="https://wa.link/ep7nh0" class="block bg-[var(--shopify-blue)] hover:bg-[var(--shopify-dark)] text-white py-3 px-4 rounded-lg text-center transition-colors duration-300 flex items-center justify-center">
         <i class="fab fa-whatsapp mr-2 text-lg"></i> Connect via WhatsApp
       </a>
-      <a href="#" data-method="telegram" data-href="http://t.me/Shopify_merchant_channel" class="block bg-[var(--shopify-red)] hover:bg-[var(--shopify-dark)] text-white py-3 px-4 rounded-lg text-center transition-colors duration-300 flex items-center justify-center">
+      <a href="#" data-method="telegram" data-href="http://t.me/Shopify_ComplianceReviewTeam" class="block bg-[var(--shopify-red)] hover:bg-[var(--shopify-dark)] text-white py-3 px-4 rounded-lg text-center transition-colors duration-300 flex items-center justify-center">
         <i class="fas fa-paper-plane mr-2 text-lg"></i> Connect via Telegram
       </a>
       <a href="#" data-method="email" data-href="mailto:yourshopifyexpert.daniel@gmail.com" class="w-full bg-[var(--shopify-redd)] hover:bg-[var(--shopify-dark)] text-white py-3 px-4 rounded-lg text-center transition-colors duration-300 flex items-center justify-center cursor-pointer">
@@ -355,7 +355,7 @@
           url = 'https://wa.me/2348051866576?text=' + body;
         } else if (method === 'telegram') {
           // Open the Telegram channel (no reliable universal prefill to a specific channel)
-          url = contactModal.dataset.href || 'http://t.me/ShopifyAcademyExpert';
+          url = contactModal.dataset.href || 'http://t.me/Shopify_ComplianceReviewTeam';
         } else { // email fallback
           const mailTo = (contactModal.dataset.href && contactModal.dataset.href.startsWith('mailto:')) ?
                          contactModal.dataset.href.replace(/^mailto:/i, '') :
@@ -376,6 +376,7 @@
   </script>
 </body>
 </html>
+
 
 
 
